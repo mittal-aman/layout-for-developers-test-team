@@ -23,6 +23,7 @@ h1{
   flex-direction: row;
   border: 3px solid red;
   height:100vh;
+  width: auto;
   justify-content: space-around;
 
 }
@@ -32,19 +33,35 @@ h1{
   border: 1px solid ;
   border-color: green;
   height: 100vh;
-  width: 24vw;
+  width: 25vw;
 }
 .Center
 {
   border: 1px solid;
   border-color: blue;
   height: 100vh;
-  width: 49vw;
+  width: 50vw;
 }
 .Right
 {
-  border: 1px solid
+  border: 1px solid;
   border-color: yellow;
   height: 100vh;
-  width: 24vw;
+  width: 25vw;
+  display: flex;
+  justify-content:center;
+}
+
+p
+{
+  display: flex;
+  flex-direction: row;
+}
+
+ul{
+  list-style: none;
+}
+
+i{
+  font-size: 100px;
 }
